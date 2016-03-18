@@ -6,7 +6,7 @@ class CreateYellowpages < ActiveRecord::Migration
 			t.string :name
 			t.string :phone
 			t.string :address
-			t.timestamps
+			t.timestamp
 		end
 	end
 end
