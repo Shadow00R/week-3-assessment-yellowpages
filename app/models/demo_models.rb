@@ -1,3 +1,4 @@
+
 class Task < ActiveRecord::Base
 	def initialize
 	end

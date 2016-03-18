@@ -1,6 +1,6 @@
 require 'rake'
 require 'rspec/core/rake_task'
-
+require_relative 'db/seeds'
 require_relative 'config/application'
 
 desc "create the database"
